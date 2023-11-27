@@ -1,8 +1,8 @@
 
-<b>~ <color = orange>[SOON]</color> Près-Alpha 0.0.1 ~</b>
+~ [SOON] Près-Alpha 0.0.1 ~
             - Ouverture de la map au public
 
-<b>~ Près-Alpha 0.0.0 ~</b>
+~ Près-Alpha 0.0.0 ~
 	- Modification du panel des crèdit / Soutients / Change logs
 	- Optimisation : Séparation par zone pour un meilleur déchargement de l'oclusion culling 
 	- Correction des bug de tp du a la colision de deux colliders

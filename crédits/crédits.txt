@@ -1,7 +1,16 @@
 
 Modélisation : Noa_Pink
 Unity : Frankk Darko
+Logo : KARLΟ
+
+~ Github asset ~
+Room Lock & Beer pong : Thry
+Mirror toggle : Tera
+Billard : VRCBilliards
+Skee-Ball : Pyralix
+
+
 
 Staffs : 
 	- Frankk Darko
-	- Noa_Pink
+	- Noa-Pink
