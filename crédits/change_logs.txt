@@ -9,6 +9,7 @@
 	- Correction du bug sur le Beer pong et Skee-balls
 	- Ajout Ajout de la possibilité de Lock les room ( Room 2 peut être lock seulement par les admins )
 	- Correctif de glitch pour entré dans les room verrouiller
+	- Ajout d'un boutton pour forcé l'entré au chambre pour le Staff
 
     -> Bugs connu ( en cours de résolutions ):
 		- Certains toggles ne sont pas bien sync et il faut cliquer deux fois pour avoir le résultat obtenue
