@@ -1,8 +1,9 @@
 
-~ [SOON] Près-Alpha 0.0.1 ~
-            - Ouverture de la map au public
+~ {SOON} Près-Alpha 0.0.1 ~
+	- Ouverture de la map au public
+	- Version Quest
 
-~ Près-Alpha 0.0.0 ~
+~ Près-Alpha 0.0.0 [ CLOSED ] ~
 	- Modification du panel des crèdit / Soutients / Change logs
 	- Optimisation : Séparation par zone pour un meilleur déchargement de l'oclusion culling 
 	- Correction des bug de tp du a la colision de deux colliders
@@ -10,8 +11,11 @@
 	- Ajout Ajout de la possibilité de Lock les room ( Room 2 peut être lock seulement par les admins )
 	- Correctif de glitch pour entré dans les room verrouiller
 	- Ajout d'un boutton pour forcé l'entré au chambre pour le Staff
+	- [WIP] Cinéma
+	- [WIP] Pillow Castel
+	
 
-    -> Bugs connu ( en cours de résolutions ):
+    -> Bugs connu ( en cours de résolutions ) :
 		- Certains toggles ne sont pas bien sync et il faut cliquer deux fois pour avoir le résultat obtenue
 		- Les sliders de luminosité ne sont pas sync sur les diffèrents pannel 
 		- Bake ( ombrage ) mal fait sur certain endroit 
