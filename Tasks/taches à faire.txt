@@ -2,12 +2,20 @@ Noa-Pink :
 
 Priorité 1
 
-- Event Noel
-- Event Nouvel an 
+❌- Event Noel
+❌- Event Nouvel an 
 
 Priorité 2
 
-- Pillows Castel
-- Chambre 2
-- grand Suit
-- Les coussins pour les lits du cinéma
+❌- Pillows Castel
+❌- Chambre 2
+❌- grand Suit
+❌- Les coussins pour les lits du cinéma
+
+
+Frankk :
+
+Priorité 1
+
+- Amélioré le panel & Corrigé les bugs
+- Versions Quest
