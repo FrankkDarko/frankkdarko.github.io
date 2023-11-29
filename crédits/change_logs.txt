@@ -11,6 +11,8 @@
 	- Ajout Ajout de la possibilité de Lock les room ( Room 2 peut être lock seulement par les admins )
 	- Correctif de glitch pour entré dans les room verrouiller
 	- Ajout d'un boutton pour forcé l'entré au chambre pour le Staff
+	- Modification des texture des murs
+	- Correctif du PostProcessing ( Luminosité & Bloom ) 
 	- [WIP] Cinéma
 	- [WIP] Pillow Castel
 	
