@@ -1,6 +1,6 @@
 
 Modélisation : Noa_Pink
-Unity : Frankk Darko
+Unity : FrankkDarko
 Logo : KARLΟ
 
 ~ Github asset ~
@@ -12,7 +12,7 @@ Skee-Ball : Pyralix
 
 
 Staffs : 
-	- Frankk Darko
+	- FrankkDarko
 	- Noa-Pink
 	- -Cross
 	- Peppermînt

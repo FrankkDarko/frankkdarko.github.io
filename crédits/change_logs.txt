@@ -13,6 +13,7 @@
 	- Ajout d'un boutton pour forcé l'entré au chambre pour le Staff
 	- Modification des texture des murs
 	- Correctif du PostProcessing ( Luminosité & Bloom ) 
+	- Correctif de bug d'oclusion culling
 	- Cinéma
 	- [WIP] Pillow Castel
 	
