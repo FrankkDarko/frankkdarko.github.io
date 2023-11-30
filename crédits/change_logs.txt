@@ -14,6 +14,7 @@
 	- Modification des texture des murs
 	- Correctif du PostProcessing ( Luminosité & Bloom ) 
 	- Correctif de bug d'oclusion culling
+	- Amélioration du Bake ( ombrage ) 
 	- Cinéma
 	- [WIP] Pillow Castel
 	
@@ -21,4 +22,3 @@
     -> Bugs connu ( en cours de résolutions ) :
 		- Certains toggles ne sont pas bien sync et il faut cliquer deux fois pour avoir le résultat obtenue
 		- Les sliders de luminosité ne sont pas sync sur les diffèrents pannel 
-		- Bake ( ombrage ) mal fait sur certain endroit 
