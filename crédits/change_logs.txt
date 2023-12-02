@@ -2,6 +2,8 @@
 ~ Près-Alpha 0.0.1 ~
 	- Ouverture de la map au public
 	- Version Quest
+	- Crayons & Balle du beer pong & Ecran du cinéma // oclusion culling réparé
+	- luminosité du cinéma plus basse
 	- [WIP] Pillow Castel
 	- [WIP] Chambre 2 & Grand Suite
 
