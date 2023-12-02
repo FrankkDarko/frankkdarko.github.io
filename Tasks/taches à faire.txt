@@ -19,3 +19,5 @@ Priorité 1
 
 - Amélioré le panel & Corrigé les bugs
 - Versions Quest
+- Crayons & Balle du beer pong & Ecran du cinéma // oclusion culling
+-
