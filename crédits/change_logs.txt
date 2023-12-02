@@ -4,6 +4,10 @@
 	- Version Quest
 	- Crayons & Balle du beer pong & Ecran du cinéma // oclusion culling réparé
 	- luminosité du cinéma plus basse
+	- Ajout d'un affichage pour voir qui est dans le cinéma 
+	- Correctino du bake ( ombrage ) de certain mur
+	- Correction de la position de la request dans les chambres
+	- Ajour d'un mirroir a l'éate de la salle de jeux
 	- [WIP] Pillow Castel
 	- [WIP] Chambre 2 & Grand Suite
 
