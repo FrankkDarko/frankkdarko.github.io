@@ -18,5 +18,6 @@ Frankk :
 Priorité 1
 
 - Amélioré le panel & Corrigé les bugs
+- Régler le sons du billard
 
 
