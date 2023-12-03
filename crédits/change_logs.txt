@@ -1,3 +1,18 @@
+~ Près-Alpha 0.0.2 ~
+	- Réglage du cliping ( Objet qui disparaisser )
+	- Mise en place du vérouillage seulement pour les Patreon et VIP
+	- Fix d'un glitch permetant d'entré dans la Chambre 1 même vérouiller
+	- Bouton pour reset la position des crayons
+	- Fix du sons du billard ( entendu dans totue la map )
+	- Retrait de la pub pour la soirée d'ouverture
+	- [WIP] Pillow Castel
+	- [WIP] Chambre 2 & Grand Suite
+
+    -> Bugs connu ( en cours de résolutions ) :
+		- Certains toggles ne sont pas bien sync et il faut cliquer deux fois pour avoir le résultat obtenue
+		- Les sliders de luminosité ne sont pas sync sur les diffèrents pannel 
+		- Pas de gestions de luminosité en quest
+		- Les mirroirs font perdre beaucoup de FPS au Quest ( Recherche d'une solution sans perte de qualité )
 
 ~ Près-Alpha 0.0.1 ~
 	- Ouverture de la map au public
@@ -8,14 +23,6 @@
 	- Correctino du bake ( ombrage ) de certain mur
 	- Correction de la position de la request dans les chambres
 	- Ajour d'un mirroir a l'éate de la salle de jeux
-	- [WIP] Pillow Castel
-	- [WIP] Chambre 2 & Grand Suite
-
-    -> Bugs connu ( en cours de résolutions ) :
-		- Certains toggles ne sont pas bien sync et il faut cliquer deux fois pour avoir le résultat obtenue
-		- Les sliders de luminosité ne sont pas sync sur les diffèrents pannel 
-		- Pas de gestions de luminosité en quest
-		- Les mirroirs font perdre beaucoup de FPS au Quest ( Recherche d'une solution sans perte de qualité )
 
 ~ Près-Alpha 0.0.0 [ CLOSED ] ~
 	- Modification du panel des crèdit / Soutients / Change logs
