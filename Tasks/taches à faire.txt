@@ -10,7 +10,7 @@ Priorité 2
 ❌- Pillows Castel
 ❌- Chambre 2
 ❌- grand Suit
-❌- Les coussins pour les lits du cinéma
+✅- Les coussins pour les lits du cinéma
 
 
 Frankk :
@@ -22,5 +22,6 @@ Priorité 1
 - Son séparer par piece
 - Ajout Staff : Megami.
 - Ajout Patreon : -DEAD-name-
+- Ajout de le poster de Mael
 
 
