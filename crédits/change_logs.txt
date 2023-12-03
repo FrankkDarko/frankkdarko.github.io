@@ -3,7 +3,7 @@
 	- Mise en place du vérouillage seulement pour les Patreon et VIP
 	- Fix d'un glitch permetant d'entré dans la Chambre 1 même vérouiller
 	- Bouton pour reset la position des crayons
-	- Fix du sons du billard ( entendu dans totue la map )
+	- Fix du sons du billard ( entendu dans toute la map )
 	- Retrait de la pub pour la soirée d'ouverture
 	- [WIP] Pillow Castel
 	- [WIP] Chambre 2 & Grand Suite
