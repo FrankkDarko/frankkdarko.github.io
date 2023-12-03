@@ -1,42 +1,41 @@
+Voici la correction de votre texte :
+
 ~ Près-Alpha 0.0.2 ~
-	- Réglage du cliping ( Objet qui disparaisser )
-	- Mise en place du vérouillage seulement pour les Patreon et VIP
-	- Fix d'un glitch permetant d'entré dans la Chambre 1 même vérouiller
-	- Bouton pour reset la position des crayons
-	- Fix du sons du billard ( entendu dans toute la map )
-	- Retrait de la pub pour la soirée d'ouverture
-	- [WIP] Pillow Castel
+	- Réglage du clipping (Objets disparaissant)
+	- Mise en place du verrouillage réservé aux seuls Patreon et VIP
+	- Correction d'un glitch permettant d'entrer dans la Chambre 1 même verrouillée
+	- Ajout d'un bouton pour réinitialiser la position des crayons
+	- Correction du son du billard (audible dans toute la map)
+	- Suppression de la publicité pour la soirée d'ouverture
+	- [WIP] Pillow Castle
 	- [WIP] Chambre 2 & Grand Suite
 
-    -> Bugs connu ( en cours de résolutions ) :
-		- Certains toggles ne sont pas bien sync et il faut cliquer deux fois pour avoir le résultat obtenue
-		- Les sliders de luminosité ne sont pas sync sur les diffèrents pannel 
-		- Pas de gestions de luminosité en quest
-		- Les mirroirs font perdre beaucoup de FPS au Quest ( Recherche d'une solution sans perte de qualité )
+	Bugs connus (en cours de résolution) :
+		- Certains toggles ne sont pas synchronisés correctement et nécessitent deux clics pour obtenir le résultat attendu
+		- Les sliders de luminosité ne sont pas synchronisés sur les différents panneaux
+		- Absence de gestion de la luminosité en mode Quest
+		- Les miroirs entraînent une perte significative de FPS sur le Quest (recherche d'une solution sans perte de qualité)
 
 ~ Près-Alpha 0.0.1 ~
-	- Ouverture de la map au public
-	- Version Quest
-	- Crayons & Balle du beer pong & Ecran du cinéma // oclusion culling réparé
-	- luminosité du cinéma plus basse
-	- Ajout d'un affichage pour voir qui est dans le cinéma 
-	- Correctino du bake ( ombrage ) de certain mur
-	- Correction de la position de la request dans les chambres
-	- Ajour d'un mirroir a l'éate de la salle de jeux
+	- Ouverture de la carte au public
+	- Version pour Quest
+	- Correction de l'occlusion culling pour les crayons, la balle du beer pong et l'écran du cinéma
+	- Baisse de la luminosité du cinéma
+	- Ajout d'un affichage pour voir qui est dans le cinéma
+	- Correction du bake (ombrage) de certains murs
+	- Correction de la position de la requête dans les chambres
+	- Ajout d'un miroir à l'entrée de la salle de jeux
 
-~ Près-Alpha 0.0.0 [ CLOSED ] ~
-	- Modification du panel des crèdit / Soutients / Change logs
-	- Optimisation : Séparation par zone pour un meilleur déchargement de l'oclusion culling 
-	- Correction des bug de tp du a la colision de deux colliders
-	- Correction du bug sur le Beer pong et Skee-balls
-	- Ajout Ajout de la possibilité de Lock les room ( Room 2 peut être lock seulement par les admins )
-	- Correctif de glitch pour entré dans les room verrouiller
-	- Ajout d'un boutton pour forcé l'entré au chambre pour le Staff
-	- Modification des texture des murs
-	- Correctif du PostProcessing ( Luminosité & Bloom ) 
-	- Correctif de bug d'oclusion culling
-	- Amélioration du Bake ( ombrage ) 
-	- Cinéma
-
-	
-
+~ Près-Alpha 0.0.0 [FERMÉ] ~
+	- Modification du panneau des crédits/soutiens/changements apportés
+	- Optimisation : séparation par zone pour un meilleur déchargement de l'occlusion culling
+	- Correction des bugs de téléportation dus à la collision de deux colliders
+	- Correction des bugs sur le Beer pong et Skee-balls
+	- Ajout de la possibilité de verrouiller les salles (Room 2 peut être verrouillée uniquement par les admins)
+	- Correction de glitch pour entrer dans les rooms verrouillées
+	- Ajout d'un bouton pour forcer l'entrée dans les chambres pour le personnel
+	- Modification des textures des murs
+	- Correction du post-traitement (luminosité & bloom)
+- Correction des bugs d'occlusion culling
+- Amélioration du bake (ombrage)
+- Cinéma
