@@ -18,6 +18,9 @@ Frankk :
 Priorité 1
 
 - Amélioré le panel & Corrigé les bugs
-- Régler le sons du billard
+- Reset de dessins
+- Son séparer par piece
+- Ajout Staff : Megami.
+- Ajout Patreon : -DEAD-name-
 
 
