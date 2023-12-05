@@ -1,5 +1,32 @@
 Voici la correction de votre texte :
 
+~ Près-Alpha 0.0.3 ~
+
+	En test :
+
+		- Sont séparés par pièce.
+		- Ajouter une interface utilisateur pour les platines.
+
+	Correction :
+
+		- Empêcher le master de l'instance de verrouiller le lecteur.
+		- Les posters son mis désormais au bon format.
+
+	Ajout :
+
+		- Ajout d'un tableau pour l'image.
+	
+	Travaux en cours :
+
+	- Pillow Castle
+	- Chambre 2 & Grand Suite
+
+	Bugs connus (en cours de résolution) :
+		- Certains toggles ne sont pas synchronisés correctement et nécessitent deux clics pour obtenir le résultat attendu
+		- Les sliders de luminosité ne sont pas synchronisés sur les différents panneaux
+		- Absence de gestion de la luminosité en mode Quest
+		- Les miroirs entraînent une perte significative de FPS sur le Quest (recherche d'une solution sans perte de qualité)
+
 ~ Près-Alpha 0.0.2 ~
 	- Réglage du clipping (Objets disparaissant)
 	- Mise en place du verrouillage réservé aux seuls Patreon et VIP
@@ -7,14 +34,7 @@ Voici la correction de votre texte :
 	- Ajout d'un bouton pour réinitialiser la position des crayons
 	- Correction du son du billard (audible dans toute la map)
 	- Suppression de la publicité pour la soirée d'ouverture
-	- [WIP] Pillow Castle
-	- [WIP] Chambre 2 & Grand Suite
 
-	Bugs connus (en cours de résolution) :
-		- Certains toggles ne sont pas synchronisés correctement et nécessitent deux clics pour obtenir le résultat attendu
-		- Les sliders de luminosité ne sont pas synchronisés sur les différents panneaux
-		- Absence de gestion de la luminosité en mode Quest
-		- Les miroirs entraînent une perte significative de FPS sur le Quest (recherche d'une solution sans perte de qualité)
 
 ~ Près-Alpha 0.0.1 ~
 	- Ouverture de la carte au public
