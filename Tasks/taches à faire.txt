@@ -19,7 +19,8 @@ Priorité 1
 
 - Amélioré le panel & Corrigé les bugs
 - Reset de dessins
-- Son séparer par piece
-
+En test - Son séparer par piece
+OK - Empecher le master de lock le player
+OK - Ajouter Un UI pour les Platine
 
 
