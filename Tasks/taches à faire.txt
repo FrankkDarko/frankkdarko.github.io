@@ -20,6 +20,9 @@ Priorité 1
 - Amélioré le panel & Corrigé les bugs
 - Reset de dessins
 
+à regler :
 
+- Photo sur Quest
+- Mirroir PC et Qeust
 
 
