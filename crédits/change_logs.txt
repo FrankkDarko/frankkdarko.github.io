@@ -4,7 +4,7 @@ Voici la correction de votre texte :
 
 	En test :
 
-		- Sont séparés par pièce.
+		- Son séparés par pièce.
 		- Ajouter une interface utilisateur pour les platines.
 
 	Correction :
