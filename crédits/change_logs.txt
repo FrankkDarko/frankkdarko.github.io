@@ -1,21 +1,20 @@
 Voici la correction de votre texte :
 
-~ Près-Alpha 0.0.3 ~
+~ Près-Alpha 0.0.4 ~
 
 	En test :
 
 		- Son séparés par pièce.
 		- Ajouter un tag pour les platines.
 
-	Correction :
+	Ajout pour noël :
 
-		- Empêcher le master de l'instance de verrouiller le lecteur.
-		- Les posters son mis désormais au bon format.
+		- Palmier de noël
+		- Bonhome de neige
+		- Particule de neige ( PC Only )
+		- Guirlande de noël
+		- sol en neige dans le jardin
 
-	Ajout :
-
-		- Ajout d'un tableau pour l'image.
-	
 	Travaux en cours :
 
 	- Pillow Castle
@@ -27,6 +26,20 @@ Voici la correction de votre texte :
 		- Absence de gestion de la luminosité en mode Quest
 		- Les miroirs entraînent une perte significative de FPS sur le Quest (recherche d'une solution sans perte de qualité)
 
+
+
+
+~ Près-Alpha 0.0.3 ~
+
+	Correction :
+
+		- Empêcher le master de l'instance de verrouiller le lecteur.
+		- Les posters son mis désormais au bon format.
+
+	Ajout :
+
+		- Ajout d'un tableau pour l'image.
+	
 ~ Près-Alpha 0.0.2 ~
 	- Réglage du clipping (Objets disparaissant)
 	- Mise en place du verrouillage réservé aux seuls Patreon et VIP
