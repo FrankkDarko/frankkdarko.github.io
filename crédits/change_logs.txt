@@ -5,7 +5,7 @@ Voici la correction de votre texte :
 	En test :
 
 		- Son séparés par pièce.
-		- Ajouter une interface utilisateur pour les platines.
+		- Ajouter un tag pour les platines.
 
 	Correction :
 
