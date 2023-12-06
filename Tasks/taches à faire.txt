@@ -2,7 +2,7 @@ Noa-Pink :
 
 Priorité 1
 
-❌- Event Noel
+✅- Event Noel
 ❌- Event Nouvel an 
 
 Priorité 2
@@ -24,8 +24,9 @@ Priorité 1
 
 
 - Changer de couleur platine
-
-
-
+- Verifier Tag Quest
+- Bug photo quest
+- Oclusion coussin Haut salle de jeu
+- Unlock si pas de patreon
 
 
