@@ -1,19 +1,20 @@
 Voici la correction de votre texte :
 
-~ Près-Alpha 0.0.4 ~
+~ Près-Alpha 0.0.5 ~
 
 	En test :
 
 		- Son séparés par pièce.
-		- Ajouter un tag pour les platines.
+		- Ajouter un tag pour les platines, Staffs et Créateurs.
 
-	Ajout pour noël :
+	Ajout :
 
-		- Palmier de noël
-		- Bonhome de neige
-		- Particule de neige ( PC Only )
-		- Guirlande de noël
-		- sol en neige dans le jardin
+		- Ajout de dés et Bottle spin
+		- Photo d'un  des gagnant placer dans un endroit cacher
+
+	Correction :
+
+		- Photo de nouveau visible pour les joeur android
 
 	Travaux en cours :
 
@@ -25,6 +26,16 @@ Voici la correction de votre texte :
 		- Les sliders de luminosité ne sont pas synchronisés sur les différents panneaux
 		- Absence de gestion de la luminosité en mode Quest
 		- Les miroirs entraînent une perte significative de FPS sur le Quest (recherche d'une solution sans perte de qualité)
+
+~ Près-Alpha 0.0.4 ~
+
+	Ajout pour noël :
+
+		- Palmier de noël
+		- Bonhome de neige
+		- Particule de neige ( PC Only )
+		- Guirlande de noël
+		- sol en neige dans le jardin
 
 
 

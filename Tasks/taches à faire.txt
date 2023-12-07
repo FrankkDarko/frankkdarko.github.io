@@ -23,10 +23,11 @@ Priorité 1
 à regler :
 
 
-- Changer de couleur platine
+WIP - Changer de couleur platine
 Pas de solution - Verifier Tag Quest
-OK - Bug photo quest
 - Oclusion coussin Haut salle de jeu
 - Unlock si pas de patreon
+- Mettre un disclaimer a l'entré 
+- Promouvoir le groupe
 
 
