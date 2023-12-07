@@ -24,8 +24,8 @@ Priorité 1
 
 
 - Changer de couleur platine
-- Verifier Tag Quest
-- Bug photo quest
+Pas de solution - Verifier Tag Quest
+OK - Bug photo quest
 - Oclusion coussin Haut salle de jeu
 - Unlock si pas de patreon
 
