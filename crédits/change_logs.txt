@@ -1,6 +1,6 @@
 Voici la correction de votre texte :
 
-~ Près-Alpha 0.0.5 ~
+~ Près-Alpha 0.0.6 ~
 
 	En test :
 
@@ -9,12 +9,9 @@ Voici la correction de votre texte :
 
 	Ajout :
 
-		- Ajout de dés et Bottle spin
-		- Photo d'un  des gagnant placer dans un endroit cacher
+		- Nouvelle Room pour chambre 1
+		- Migration a Unity 2022.3.6f1
 
-	Correction :
-
-		- Photo de nouveau visible pour les joeur android
 
 	Travaux en cours :
 
@@ -26,6 +23,20 @@ Voici la correction de votre texte :
 		- Les sliders de luminosité ne sont pas synchronisés sur les différents panneaux
 		- Absence de gestion de la luminosité en mode Quest
 		- Les miroirs entraînent une perte significative de FPS sur le Quest (recherche d'une solution sans perte de qualité)
+
+
+
+~ Près-Alpha 0.0.5 ~
+
+	Ajout :
+
+		- Ajout de dés et Bottle spin
+		- Photo d'un  des gagnant placer dans un endroit cacher
+
+	Correction :
+
+		- Photo de nouveau visible pour les joeur android
+
 
 ~ Près-Alpha 0.0.4 ~
 
