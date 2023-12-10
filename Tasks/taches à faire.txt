@@ -8,7 +8,7 @@ Priorité 1
 Priorité 2
 
 ❌- Pillows Castel
-❌- Chambre 2
+✅- Chambre 2
 ❌- grand Suit
 ✅- Les coussins pour les lits du cinéma
 
@@ -27,6 +27,8 @@ WIP - Changer de couleur platine
 Pas de solution - Verifier Tag Quest
 - Oclusion coussin Haut salle de jeu
 - Unlock si pas de patreon
-- Mettre un disclaimer a l'entré 
-- Promouvoir le groupe
+OK - Mettre un disclaimer a l'entré 
+OK - Promouvoir le groupe
+WIP - Collider canapé exterieur
+OK - Déplacer panel cinema
 
