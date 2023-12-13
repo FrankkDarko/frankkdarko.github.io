@@ -22,15 +22,11 @@ Priorité 1
 
 à regler :
 
-
-WIP - Changer de couleur platine
 Pas de solution - Verifier Tag Quest
-- Oclusion coussin Haut salle de jeu
 - Unlock si pas de patreon
 WIP - Collider canapé exterieur
-- Ajouter CM au admin
-- Mettre a jour panel Admine
-- mirroir chambre
+- Moin de reflet sur les feuille
+- lumiere dans les pots
 
 
 Idée : remplacer les separation bois par l'idée qui y a sur les mur avec une inspiration a la assinde crinde : revelation 'isle' 
