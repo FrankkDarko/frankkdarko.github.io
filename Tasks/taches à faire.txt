@@ -22,11 +22,16 @@ Priorité 1
 
 à regler :
 
-Pas de solution - Verifier Tag Quest
-- Unlock si pas de patreon
+WIP - Unlock si pas de patreon
 WIP - Collider canapé exterieur
-- Moin de reflet sur les feuille
-- lumiere dans les pots
+
+A TESTER - Verifier Player Quest
+
+- son billard
+- Vitre CH1
+- Lumiere escalier CH1
+- Systeme par list distante porte
+
 
 
 Idée : remplacer les separation bois par l'idée qui y a sur les mur avec une inspiration a la assinde crinde : revelation 'isle' 
