@@ -1,3 +1,21 @@
+~ Près-Alpha 0.0.8 ~
+
+	Ajout :
+
+		- Rework Chambre 2
+		- Des cadeau au pied du palmier de noël
+
+	Travaux en cours :
+
+	- Pillow Castle
+	- Grand Suite
+
+	Bugs connus (en cours de résolution) :
+		- Certains toggles ne sont pas synchronisés correctement et nécessitent deux clics pour obtenir le résultat attendu
+		- Les sliders de luminosité ne sont pas synchronisés sur les différents panneaux
+		- Absence de gestion de la luminosité en mode Quest
+		- Les miroirs entraînent une perte significative de FPS sur le Quest (recherche d'une solution sans perte de qualité)
+
 ~ Près-Alpha 0.0.7 ~
 
 	En test :
@@ -14,16 +32,6 @@
 		- crayons qui disparaissent sur Android.
 		- Miroir de la chambre 1 qui scintille lors de l'utilisation du 'Personal Mirror'.
 
-	Travaux en cours :
-
-	- Pillow Castle
-	- Rework Chambre 2 & Grand Suite
-
-	Bugs connus (en cours de résolution) :
-		- Certains toggles ne sont pas synchronisés correctement et nécessitent deux clics pour obtenir le résultat attendu
-		- Les sliders de luminosité ne sont pas synchronisés sur les différents panneaux
-		- Absence de gestion de la luminosité en mode Quest
-		- Les miroirs entraînent une perte significative de FPS sur le Quest (recherche d'une solution sans perte de qualité)
 
 
 ~ Près-Alpha 0.0.6 ~
