@@ -3,7 +3,7 @@
 	Ajout :
 
 		- Rework Chambre 2
-		- Des cadeau au pied du palmier de noël
+		- Des cadeaux au pied du sapin de Noël
 
 	Travaux en cours :
 
