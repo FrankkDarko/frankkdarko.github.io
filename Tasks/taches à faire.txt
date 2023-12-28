@@ -13,8 +13,6 @@ Priorité 2
 ✅- Les coussins pour les lits du cinéma
 
 
-brre enc metal
-
 
 Frankk :
 
@@ -34,8 +32,8 @@ A TESTER - Verifier Player Quest
 - Vitre CH1
 - Lumiere escalier CH1
 - Systeme par list distante porte
+- Verifier lock Quest
+- Mettre player CH2
+- Retirer le tp pour les user normaux
 
-
-
-Idée : remplacer les separation bois par l'idée qui y a sur les mur avec une inspiration a la assinde crinde : revelation 'isle' 
 

@@ -1,9 +1,14 @@
-~ Près-Alpha 0.0.8 ~
+~ Près-Alpha 0.0.9 ~
 
 	Ajout :
 
-		- Rework Chambre 2
-		- Des cadeaux au pied du sapin de Noël
+		- Rework Salon
+		- Rework des poteaux en brois
+		- Zone chill sous l'escalier
+
+	Correction :
+
+		- Retravail de lumière et du PostProcessing
 
 	Travaux en cours :
 
@@ -15,6 +20,14 @@
 		- Les sliders de luminosité ne sont pas synchronisés sur les différents panneaux
 		- Absence de gestion de la luminosité en mode Quest
 		- Les miroirs entraînent une perte significative de FPS sur le Quest (recherche d'une solution sans perte de qualité)
+
+~ Près-Alpha 0.0.8 ~
+
+	Ajout :
+
+		- Rework Chambre 2
+		- Des cadeaux au pied du sapin de Noël
+
 
 ~ Près-Alpha 0.0.7 ~
 
