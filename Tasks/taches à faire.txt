@@ -25,15 +25,11 @@ Priorité 1
 
 WIP - Unlock si pas de patreon
 WIP - Collider canapé exterieur
+- Désactiver l'attribution Grade si pas dans la liste
 
 A TESTER - Verifier Player Quest
 
 - son billard
-- Vitre CH1
-- Lumiere escalier CH1
-- Systeme par list distante porte
-- Verifier lock Quest
-- Mettre player CH2
 - Retirer le tp pour les user normaux
-
+- Changer la couleur de pseudo
 
