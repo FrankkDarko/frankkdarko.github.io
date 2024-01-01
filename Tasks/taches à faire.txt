@@ -32,4 +32,6 @@ A TESTER - Verifier Player Quest
 - son billard
 - Retirer le tp pour les user normaux
 - Changer la couleur de pseudo
+- Calpint avec écriture calvier
+- Plus meubler les chambre
 
