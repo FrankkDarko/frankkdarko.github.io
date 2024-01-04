@@ -25,6 +25,7 @@ Priorité 1
 
 WIP - Unlock si pas de patreon
 WIP - Collider canapé exterieur
+WIP - Faille TP Udon
 - Désactiver l'attribution Grade si pas dans la liste
 
 A TESTER - Verifier Player Quest Chambre 1
@@ -34,7 +35,6 @@ A TESTER - Verifier Player Quest Chambre 1
 - Calpint avec écriture calvier
 - Plus meubler les chambre
 - Crayon desactiver par defaut
-- Faille TP Udon
-- MAJ Image 
+
 
 
