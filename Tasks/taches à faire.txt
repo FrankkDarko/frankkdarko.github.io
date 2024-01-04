@@ -27,11 +27,14 @@ WIP - Unlock si pas de patreon
 WIP - Collider canapé exterieur
 - Désactiver l'attribution Grade si pas dans la liste
 
-A TESTER - Verifier Player Quest
+A TESTER - Verifier Player Quest Chambre 1
 
 - son billard
-- Retirer le tp pour les user normaux
 - Changer la couleur de pseudo
 - Calpint avec écriture calvier
 - Plus meubler les chambre
+- Crayon desactiver par defaut
+- Faille TP Udon
+- MAJ Image 
+
 
