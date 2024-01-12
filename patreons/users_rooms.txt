@@ -24,3 +24,4 @@ Halfox_
 undermath
 MsSangoku
 Neoplug®
+Bruven Solo
