@@ -1,3 +1,26 @@
+~ Alpha 1.0.0 ~
+
+	Ajout :
+
+		- Rework du la map
+		- Rework des textures
+		- Rework des ombres et de la lumière
+		- Rework Panel
+
+	Correction :
+
+		- Le Slider de luminosité et maintenant synchronisé entre les panels
+	
+
+	Travaux en cours :
+
+		- Grand Suite
+
+	Bugs connus (en cours de résolution) :
+		- Absence de gestion de la luminosité en mode Quest
+		- Les miroirs entraînent une perte significative de FPS sur le Quest (recherche d'une solution sans perte de qualité)
+
+
 ~ Près-Alpha 0.0.9 ~
 
 	Ajout :
@@ -10,16 +33,6 @@
 
 		- Retravail de lumière et du PostProcessing
 
-	Travaux en cours :
-
-	- Pillow Castle
-	- Grand Suite
-
-	Bugs connus (en cours de résolution) :
-		- Certains toggles ne sont pas synchronisés correctement et nécessitent deux clics pour obtenir le résultat attendu
-		- Les sliders de luminosité ne sont pas synchronisés sur les différents panneaux
-		- Absence de gestion de la luminosité en mode Quest
-		- Les miroirs entraînent une perte significative de FPS sur le Quest (recherche d'une solution sans perte de qualité)
 
 ~ Près-Alpha 0.0.8 ~
 

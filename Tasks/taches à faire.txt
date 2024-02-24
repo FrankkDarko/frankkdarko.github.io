@@ -2,15 +2,12 @@ Noa-Pink :
 
 Priorité 1
 
-✅- Event Noel
-❌- Event Nouvel an 
+❌- grand Suit
 
 Priorité 2
 
-❌- Pillows Castel
-✅- Chambre 2
-❌- grand Suit
-✅- Les coussins pour les lits du cinéma
+❌- Oasis
+
 
 
 
@@ -18,23 +15,19 @@ Frankk :
 
 Priorité 1
 
-- Amélioré le panel & Corrigé les bugs
-- Reset de dessins
 
 à regler :
 
 WIP - Unlock si pas de patreon
-WIP - Collider canapé exterieur
 WIP - Faille TP Udon
 - Désactiver l'attribution Grade si pas dans la liste
 
 A TESTER - Verifier Player Quest Chambre 1
 
 - son billard
-- Changer la couleur de pseudo
 - Calpint avec écriture calvier
 - Plus meubler les chambre
-- Crayon desactiver par defaut
+
 
 
 
