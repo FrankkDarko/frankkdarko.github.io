@@ -8,9 +8,9 @@ Photographe : Megami․
 
 ~ Github asset ~
 Room Lock & Beer pong : Thry
-Mirror toggle : Tera
 Billard : VRCBilliards
 Skee-Ball : Pyralix
+VideoPlayer : ArchiTechVR
 
 
 

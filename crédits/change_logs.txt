@@ -1,3 +1,24 @@
+~ Alpha 1.5.0 ~
+
+	Ajout :
+
+		- Grand chambre
+
+	Correction :
+
+		- Remplacement des Players
+		- Remplacement des mirroirs
+	
+
+	Travaux en cours :
+
+		- Oasis
+
+	Bugs connus (en cours de résolution) :
+
+		- Absence de gestion de la luminosité en mode Quest
+
+
 ~ Alpha 1.0.0 ~
 
 	Ajout :
@@ -10,15 +31,7 @@
 	Correction :
 
 		- Le Slider de luminosité et maintenant synchronisé entre les panels
-	
 
-	Travaux en cours :
-
-		- Grand Suite
-
-	Bugs connus (en cours de résolution) :
-		- Absence de gestion de la luminosité en mode Quest
-		- Les miroirs entraînent une perte significative de FPS sur le Quest (recherche d'une solution sans perte de qualité)
 
 
 ~ Près-Alpha 0.0.9 ~
