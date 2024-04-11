@@ -1,3 +1,18 @@
+~ Version 2.0.0 ~
+
+	Ajout :
+
+		- Oasis
+
+	Correction :
+
+		- Luminosité
+
+	Bugs connus (en cours de résolution) :
+
+		- Absence de gestion de la luminosité en mode Quest
+
+
 ~ Alpha 1.5.0 ~
 
 	Ajout :
@@ -8,15 +23,6 @@
 
 		- Remplacement des Players
 		- Remplacement des mirroirs
-	
-
-	Travaux en cours :
-
-		- Oasis
-
-	Bugs connus (en cours de résolution) :
-
-		- Absence de gestion de la luminosité en mode Quest
 
 
 ~ Alpha 1.0.0 ~
