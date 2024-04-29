@@ -1,22 +1,23 @@
 ~ Version 2.1.0 ~
 
-	Ajout :
+	Ajouts :
 
 		- Uno
 		- Carte avec tp sur le panel
-		- Tag Vétéran pour les anciens staff
-		- Publicité des prochaine événements
-		- Lien clicable ( Groupe / Discord / Patreon )
+		- Tag Vétéran pour les anciens membres du staff
+		- Publicité des prochains événements
+		- Liens cliquables ( Groupe / Discord / Patreon )
 
-	Correction :
+	Corrections :
 
-		- Spawn qui fesais apparaitre dans le vide
-		- Optimisation de certaine taille d'images pour libèrer l'atribution de la ram
+		- Spawn qui faisait apparaître dans le vide
+		- Optimisation de certaines tailles d'images pour libérer l'attribution de la RAM
 
-	Modification :
-		
-		- Changement de certaine image
-		- Changement visuel des paneau d'entré ( Réglement et disclamer )
+	Modifications :
+	
+		- Changement de certaines images
+		- Changement visuel des panneaux d'entrée ( Règlement et disclaimer )
+
 
 ~ Version 2.0.1 ~
 
