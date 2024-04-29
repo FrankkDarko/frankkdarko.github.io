@@ -4,11 +4,19 @@
 
 		- Uno
 		- Carte avec tp sur le panel
+		- Tag Vétéran pour les anciens staff
+		- Publicité des prochaine événements
+		- Lien clicable ( Groupe / Discord / Patreon )
 
 	Correction :
 
 		- Spawn qui fesais apparaitre dans le vide
-		- 
+		- Optimisation de certaine taille d'images pour libèrer l'atribution de la ram
+
+	Modification :
+		
+		- Changement de certaine image
+		- Changement visuel des paneau d'entré ( Réglement et disclamer )
 
 ~ Version 2.0.1 ~
 
