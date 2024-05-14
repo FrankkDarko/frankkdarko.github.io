@@ -2,7 +2,8 @@
 Modélisation : Noa_Pink
 Unity : FrankkDarko
 Community Manager : UnderMath
-Responsable Staff : Megami․
+Gérante : Megami․
+Responsable Staff : -Cross
 Logo : KARLΟ
 Photographe : Megami․
 
@@ -20,5 +21,6 @@ Staffs :
 	- -Cross
 	- Megami․
 	- Toche_44_
+	- VaniX_fox
 	- kibuzet98
 	- lecat40
