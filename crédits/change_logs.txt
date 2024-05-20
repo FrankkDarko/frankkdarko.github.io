@@ -1,3 +1,24 @@
+~ Version 2.1.1 ~
+
+	Ajouts :
+
+		- Lancé de Hache
+
+	Retrait :
+
+		- Skee-Balls
+
+	Corrections :
+
+		- Texture billard chambre 3
+
+	Modifications :
+	
+		- Salle de jeux
+		- Shader de l'eau
+		- Scène jardin
+		- Changement de version unity vers 2022.3.22f1 ( Recommendé par VRchat ) 
+
 ~ Version 2.1.0 ~
 
 	Ajouts :
