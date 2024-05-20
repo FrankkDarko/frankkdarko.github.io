@@ -2,7 +2,7 @@
 
 	Ajouts :
 
-		- Lancé de Hache
+		- Lancer de Hache
 
 	Retrait :
 
