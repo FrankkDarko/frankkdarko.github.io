@@ -4,7 +4,7 @@ Unity : FrankkDarko
 Community Manager : ---
 Gérante : ---
 Responsable Staff : -Cross
-Logo : Hanako
+Logo : KARLΟ
 Photographe : 
 
 ~ Github asset ~
@@ -19,6 +19,7 @@ Staffs :
 	- FrankkDarko
 	- Noa-Pink
 	- -Cross
+	- Megami․
 	- Toche_44_
 	- VaniX_fox
 	- kibuzet98

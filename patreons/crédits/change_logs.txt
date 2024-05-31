@@ -1,0 +1,213 @@
+~ Version 2.1.1 ~
+
+	Ajouts :
+
+		- Lancer de Hache
+
+	Retrait :
+
+		- Skee-Balls
+
+	Corrections :
+
+		- Texture billard chambre 3
+
+	Modifications :
+	
+		- Salle de jeux
+		- Shader de l'eau
+		- Scène jardin
+		- Changement de version unity vers 2022.3.22f1 ( Recommendé par VRchat ) 
+
+~ Version 2.1.0 ~
+
+	Ajouts :
+
+		- Uno
+		- Carte avec tp sur le panel
+		- Tag Vétéran pour les anciens membres du staff
+		- Publicité des prochains événements
+		- Liens cliquables ( Groupe / Discord / Patreon )
+
+	Corrections :
+
+		- Spawn qui faisait apparaître dans le vide
+		- Optimisation de certaines tailles d'images pour libérer l'attribution de la RAM
+
+	Modifications :
+	
+		- Changement de certaines images
+		- Changement visuel des panneaux d'entrée ( Règlement et disclaimer )
+
+
+~ Version 2.0.1 ~
+
+	Ajout :
+
+		- Le ballon rebomndi 
+		- Post Processing sous l'eau ( PC Only )
+
+	Correction :
+
+		- Sable pixeliser dans L'oasis
+		- Optimisation de la map
+
+
+~ Version 2.0.0 ~
+
+	Ajout :
+
+		- Oasis
+
+	Correction :
+
+		- Luminosité
+
+
+~ Alpha 1.5.0 ~
+
+	Ajout :
+
+		- Grand chambre
+
+	Correction :
+
+		- Remplacement des Players
+		- Remplacement des mirroirs
+
+
+~ Alpha 1.0.0 ~
+
+	Ajout :
+
+		- Rework du la map
+		- Rework des textures
+		- Rework des ombres et de la lumière
+		- Rework Panel
+
+	Correction :
+
+		- Le Slider de luminosité et maintenant synchronisé entre les panels
+
+
+
+~ Près-Alpha 0.0.9 ~
+
+	Ajout :
+
+		- Rework Salon
+		- Rework des poteaux en brois
+		- Zone chill sous l'escalier
+
+	Correction :
+
+		- Retravail de lumière et du PostProcessing
+
+
+~ Près-Alpha 0.0.8 ~
+
+	Ajout :
+
+		- Rework Chambre 2
+		- Des cadeaux au pied du sapin de Noël
+
+
+~ Près-Alpha 0.0.7 ~
+
+	En test :
+
+		- Ajouter un tag pour les platines, Staffs et Créateurs.
+
+	Ajout :
+
+		- Pots avec des plantes pour que les espaces paraissent moins vides.
+
+	Correction :
+
+		- coussins qui disparaissent ( PC et Android).
+		- crayons qui disparaissent sur Android.
+		- Miroir de la chambre 1 qui scintille lors de l'utilisation du 'Personal Mirror'.
+
+
+
+~ Près-Alpha 0.0.6 ~
+
+	En test :
+
+		- Son séparés par pièce.
+		- Ajouter un tag pour les platines, Staffs et Créateurs.
+
+	Ajout :
+
+		- Nouvelle Room pour chambre 1
+		- Migration a Unity 2022.3.6f1
+
+
+~ Près-Alpha 0.0.5 ~
+
+	Ajout :
+
+		- Ajout de dés et Bottle spin
+		- Photo d'un  des gagnant placer dans un endroit cacher
+
+	Correction :
+
+		- Photo de nouveau visible pour les joeur android
+
+
+~ Près-Alpha 0.0.4 ~
+
+	Ajout pour noël :
+
+		- Palmier de noël
+		- Bonhome de neige
+		- Particule de neige ( PC Only )
+		- Guirlande de noël
+		- sol en neige dans le jardin
+
+
+
+
+~ Près-Alpha 0.0.3 ~
+
+	Correction :
+
+		- Empêcher le master de l'instance de verrouiller le lecteur.
+		- Les posters son mis désormais au bon format.
+
+	Ajout :
+
+		- Ajout d'un tableau pour l'image.
+	
+~ Près-Alpha 0.0.2 ~
+	- Réglage du clipping (Objets disparaissant)
+	- Mise en place du verrouillage réservé aux seuls Patreon et VIP
+	- Correction d'un glitch permettant d'entrer dans la Chambre 1 même verrouillée
+	- Ajout d'un bouton pour réinitialiser la position des crayons
+	- Correction du son du billard (audible dans toute la map)
+	- Suppression de la publicité pour la soirée d'ouverture
+
+
+~ Près-Alpha 0.0.1 ~
+	- Ouverture de la carte au public
+	- Version pour Quest
+	- Correction de l'occlusion culling pour les crayons, la balle du beer pong et l'écran du cinéma
+	- Baisse de la luminosité du cinéma
+	- Ajout d'un affichage pour voir qui est dans le cinéma
+	- Correction du bake (ombrage) de certains murs
+	- Correction de la position de la requête dans les chambres
+	- Ajout d'un miroir à l'entrée de la salle de jeux
+
+~ Près-Alpha 0.0.0 [FERMÉ] ~
+	- Modification du panneau des crédits/soutiens/changements apportés
+	- Optimisation : séparation par zone pour un meilleur déchargement de l'occlusion culling
+	- Correction des bugs de téléportation dus à la collision de deux colliders
+	- Correction des bugs sur le Beer pong et Skee-balls
+	- Ajout de la possibilité de verrouiller les salles (Room 2 peut être verrouillée uniquement par les admins)
+	- Correction de glitch pour entrer dans les rooms verrouillées
+	- Ajout d'un bouton pour forcer l'entrée dans les chambres pour le personnel
+	- Modification des textures des murs
+	- Correction du post-traitement (luminosité & bloom)
+- Correction des bugs d'occlusion culling
+- Amélioration du bake (ombrage)
+- Cinéma
