@@ -2,11 +2,12 @@
 
 	Ajouts :
 
-		- Tag à Ash ( Staff ),  Sakineko ( Community manager ) & Mustang ( Platine )
+		- Tag à Ash ( Staff ),  SakiNeko ( Community manager ) & Mustang ( Platine )
 
 	Corrections :
 
 		- Patch pour identifier clairement les utilisateur de client
+		- Collider ( Desactiver par default )
 
 	
 ~ Version 2.1.1 ~
