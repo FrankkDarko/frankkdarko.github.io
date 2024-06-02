@@ -1,3 +1,14 @@
+~ Version 2.1.2 ~
+
+	Ajouts :
+
+		- Tag à Ash ( Staff ),  Sakineko ( Community manager ) & Mustang ( Platine )
+
+	Corrections :
+
+		- Patch pour identifier clairement les utilisateur de client
+
+	
 ~ Version 2.1.1 ~
 
 	Ajouts :
