@@ -5,7 +5,6 @@ Community Manager : SakiNeko45
 Gérante : ---
 Responsable Staff : -Cross
 Logo : Hanako
-Photographe : ---
 
 ~ Github asset ~
 Room Lock & Beer pong : Thry
@@ -14,10 +13,7 @@ Skee-Ball : Pyralix
 VideoPlayer : ArchiTechVR
 
 
-
 Staffs : 
-	- FrankkDarko
-	- Noa-Pink
 	- -Cross
 	- Toche_44_
 	- VaniX_fox
