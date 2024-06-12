@@ -1,3 +1,27 @@
+~ Version 2.7.0 ~
+
+	Ajouts :
+
+		- Light Probe ( Calcule de la lumière )
+		- Nouveau script de TP
+
+	Retrait :
+
+		- Bouton map
+
+	Corrections :
+
+		- Retravail de la lumière
+		- Vidéo Player desactiver si joeur pas dans la zone
+		- Recherche approfondie des source de chute de FPS
+
+	Modifications :
+
+		- Réorganisation complète du projet unity
+		- Post Processing
+		- Optimisation de certain script
+		- Image des tableau sont maintenant en local
+
 ~ Version 2.2.0 ~
 
 	Ajouts :
