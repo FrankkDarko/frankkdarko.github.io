@@ -2,7 +2,7 @@
 Modélisation : Noa_Pink
 Unity : FrankkDarko
 Community Manager : SakiNeko45
-Gérante : ---
+Gérants : Shercal & ~°Ash°~
 Responsable Staff : -Cross
 Logo : Hanako
 
@@ -11,7 +11,6 @@ Room Lock & Beer pong : Thry
 Billard : VRCBilliards
 Skee-Ball : Pyralix
 VideoPlayer : ArchiTechVR
-
 
 Staffs : 
 	- -Cross
@@ -25,3 +24,4 @@ Staffs :
 	- Byboy632
 	- Shercal
 	- Bertion
+	- H4yd3n_4lt0n
