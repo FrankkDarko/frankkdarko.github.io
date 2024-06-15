@@ -1,3 +1,21 @@
+~ Version 2.7.1 ~
+
+	Ajouts :
+
+		- TLP Udon voice ( gestion de voix ) 
+
+	Retrait :
+
+		- Tag au dessus des staff et des platine ( Optimisation ) 
+
+	Corrections :
+
+		- Texture : Cinéma et canapé exterieur, table plateau TV
+
+	Modifications :
+
+		- 
+
 ~ Version 2.7.0 ~
 
 	Ajouts :
