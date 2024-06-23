@@ -1,3 +1,25 @@
+~ Version 2.7.7 ~
+
+	Ajouts :
+
+		- Un Easter egg ~
+		- Desactivation des GameObject si pas dans la zone
+
+	Retrait :
+
+		- systême LOD 
+
+	Corrections :
+
+		- Texture Vitre Cascade
+		- Texture lumière
+
+	Modifications :
+
+		- Remplacement des Panel par des tablette
+		- Animation de l'avion
+
+
 ~ Version 2.7.5 ~
 
 	Ajouts :
