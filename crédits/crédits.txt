@@ -16,7 +16,6 @@ Staffs :
 	- -Cross
 	- VaniX_fox
 	- kibuzet98
-	- lecat40
 	- ~°Ash°~
 	- Xtrakgame
 	- Noxyconium
