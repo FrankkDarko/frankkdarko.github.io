@@ -1,3 +1,10 @@
+~ Version 2.8.1 ~
+
+	Retrait :
+
+		- Retrait Shader Palmier suite bug
+
+
 ~ Version 2.8.0 ~
 
 	Ajouts :
