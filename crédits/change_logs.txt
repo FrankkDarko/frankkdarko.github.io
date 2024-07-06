@@ -1,3 +1,23 @@
+~ Version 2.8.0 ~
+
+	Ajouts :
+
+		- Boissons alcoolisées et soft
+		- Shader feuilles de palmier
+		- Étagère dans le restaurant
+
+	Corrections :
+
+		- Correction de la transparence des lattes du restaurant
+
+~ Version 2.7.9 ~
+
+	Corrections :
+
+		- Son de la machine a café et maintenant localiser a sa postion 
+		- position par default du menu
+		- éviter du restaurant peut miantenant laver les tasses
+
 ~ Version 2.7.8 ~
 
 	Ajouts :
