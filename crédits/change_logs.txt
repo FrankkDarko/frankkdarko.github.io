@@ -1,10 +1,24 @@
-~ Version 2.8.2 ~
+~ Version 2.8.3 ~
 
+	Ajouts :
+
+		- Boutton toggle Bouteilles et Caffé
+
+	Retrait :
+
+		- Bouteilles pour optimisation
 
 	Corrections :
 
 		- Synchronisation bouteille de Whisky
 		- Texte tablette
+		- Shader Palmier trop de reflexion
+		- Bruit de collision de verre
+
+	Modifications :
+
+		- Certaine photo
+
 
 ~ Version 2.8.1 ~
 
