@@ -1,3 +1,18 @@
+~ Version 2.8.4 ~
+
+	Ajouts :
+
+		- Spawn tablette au niveau du restaurant
+
+	Corrections :
+
+		- Taille de certaine texture
+
+	Modifications :
+
+		- Machine a cafer & bouteille désactiver par default
+		- Shader principal 
+
 ~ Version 2.8.3 ~
 
 	Ajouts :
