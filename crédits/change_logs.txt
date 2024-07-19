@@ -2,7 +2,7 @@
 
 	Ajouts :
 
-		- Dirigable
+		- Dirigeable
 		- Plateforme TP dirigeable
 
 	Retrait :
