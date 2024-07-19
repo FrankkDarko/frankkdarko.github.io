@@ -1,3 +1,24 @@
+~ Version 2.8.5 ~
+
+	Ajouts :
+
+		- Dirigable
+		- Plateforme TP dirigeable
+
+	Retrait :
+
+		- 
+
+	Corrections :
+
+		- Shader Eau ( non compatible pour android )
+		- Multiplicateur d'intensité de la lumière
+
+	Modifications :
+
+		- Palmiers
+		- Sable
+
 ~ Version 2.8.4 ~
 
 	Ajouts :
