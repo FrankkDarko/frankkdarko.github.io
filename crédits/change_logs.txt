@@ -1,3 +1,21 @@
+~ Version 2.8.6 ~
+
+	Ajouts :
+		- Paneau d'acceuille et d'informations
+
+	Retrait :
+
+		- Ancien panel informatif
+
+	Corrections :
+
+		- Lumiere des chambres et cinéma
+		- Lumière Oasis
+
+	Modifications :
+
+		- Règlements
+
 ~ Version 2.8.5 ~
 
 	Ajouts :

@@ -13,12 +13,9 @@ Skee-Ball : Pyralix
 VideoPlayer : ArchiTechVR
 
 Staffs : 
-	- -Cross
 	- VaniX_fox
-	- kibuzet98
 	- Xtrakgame
 	- Noxyconium
-	- Peppermînt
 	- Byboy632
 	- Bertion
 	- Daeimara
