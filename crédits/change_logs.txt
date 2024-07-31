@@ -1,3 +1,13 @@
+~ Version 2.8.7 ~
+
+	Ajouts :
+		- Boutton reset pour les boissons
+
+	Corrections :
+
+		- Video Player Oasis ( Les utilisateur ne pouvais pas changer le volume et le type de son )
+
+
 ~ Version 2.8.6 ~
 
 	Ajouts :
