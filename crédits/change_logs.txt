@@ -1,3 +1,21 @@
+~ Version 2.8.8 ~
+
+	Ajouts :
+		- Affichage des soutiens
+		- Zone anti-accès au dirigeable
+
+	Retrait :
+		- Ancien panneau informatif
+
+	Corrections :
+		- Position de la tablette du spawn
+		- Occlusion culling
+
+	Modifications :
+		- Crédits sur l'affichage du spawn
+		- Script de gestion des permissions
+
+
 ~ Version 2.8.7 ~
 
 	Ajouts :
