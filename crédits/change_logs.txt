@@ -1,3 +1,25 @@
+~ Version 2.9.0 ~
+
+	Ajouts :
+		- Zone grotte dans l'oasis
+		- Script pour que le ballon flotte dans l'eau
+
+	Retrait :
+		- herbes
+
+	Corrections :
+		- Point 7 du réglement couper
+		- Barre de défillement des Changelog bloquer
+		- Lightmap
+
+	Modifications :
+		- Zone chill de l'oasis
+		- Taille du ballon du dirigeable
+		- Skybox
+		- texture du sable
+		- Jeux desactiver par defaut
+
+
 ~ Version 2.8.8 ~
 
 	Ajouts :
