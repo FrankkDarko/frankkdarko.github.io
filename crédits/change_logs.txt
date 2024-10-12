@@ -1,3 +1,10 @@
+~ Version 2.9.2 ~
+
+	Modifications :
+		- Mise à jour du SDK
+		- Image dirigeable & écrans
+
+
 ~ Version 2.9.1 ~
 
 	Corrections :
