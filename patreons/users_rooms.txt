@@ -58,3 +58,4 @@ RectoVersio dd27
 [BRONZE]
 Сonnor
 PrincessYamika
+settles_xo
