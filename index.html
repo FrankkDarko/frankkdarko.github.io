@@ -1,7 +1,380 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Frankk Darko</title>
+  <meta name="description" content="Frankk Darko — créateur d'outils web gratuits, passionné de VRChat, de mondes virtuels et de jeux vidéo.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%2314b8a6'/%3E%3Cstop offset='1' stop-color='%230284c7'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='16' fill='url(%23g)'/%3E%3Ctext x='32' y='44' font-size='30' font-weight='800' text-anchor='middle' fill='white' font-family='Arial'%3EFD%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0b1120;
+      --bg-soft: #101830;
+      --card: #131c36;
+      --card-border: #22305a;
+      --text: #e6ecf8;
+      --muted: #93a3c4;
+      --accent: #14b8a6;
+      --accent-2: #0ea5e9;
+      --grad: linear-gradient(135deg, #14b8a6, #0284c7);
+      --radius: 18px;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Inter', system-ui, sans-serif;
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+    /* glow décoratif */
+    .glow {
+      position: fixed;
+      width: 60vw; height: 60vw;
+      max-width: 800px; max-height: 800px;
+      border-radius: 50%;
+      filter: blur(120px);
+      opacity: .14;
+      pointer-events: none;
+      z-index: 0;
+    }
+    .glow-1 { background: #14b8a6; top: -20vw; right: -20vw; }
+    .glow-2 { background: #0284c7; bottom: -25vw; left: -20vw; }
+
+    .wrap { position: relative; z-index: 1; max-width: 1080px; margin: 0 auto; padding: 0 24px; }
+
+    /* ---------- topbar ---------- */
+    .topbar {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 20px 0;
+    }
+    .brand { display: flex; align-items: center; gap: 12px; }
+    .brand .logo { width: 42px; height: 42px; border-radius: 12px; }
+    .brand strong { font-size: 1.05rem; font-weight: 800; letter-spacing: .2px; }
+    .lang-switch { display: flex; gap: 6px; }
+    .lang-btn {
+      background: transparent; color: var(--muted);
+      border: 1px solid var(--card-border); border-radius: 10px;
+      padding: 6px 12px; font: inherit; font-weight: 600; font-size: .85rem;
+      cursor: pointer; transition: .2s;
+    }
+    .lang-btn:hover { color: var(--text); border-color: var(--accent); }
+    .lang-btn.active { background: var(--grad); color: #fff; border-color: transparent; }
+
+    /* ---------- hero ---------- */
+    .hero { text-align: center; padding: 72px 0 64px; }
+    .hero .biglogo {
+      width: 108px; height: 108px; border-radius: 28px;
+      box-shadow: 0 12px 48px rgba(20, 184, 166, .35);
+      margin-bottom: 28px;
+    }
+    .hero h1 {
+      font-size: clamp(2.2rem, 6vw, 3.6rem);
+      font-weight: 900; letter-spacing: -1px; line-height: 1.15;
+    }
+    .hero h1 span {
+      background: var(--grad);
+      -webkit-background-clip: text; background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .hero .sub {
+      max-width: 620px; margin: 18px auto 0;
+      color: var(--muted); font-size: 1.08rem;
+    }
+    .hero .cta { margin-top: 34px; display: flex; gap: 14px; justify-content: center; flex-wrap: wrap; }
+    .btn {
+      display: inline-flex; align-items: center; gap: 8px;
+      padding: 12px 24px; border-radius: 12px;
+      font-weight: 700; font-size: .95rem; text-decoration: none;
+      transition: .2s;
+    }
+    .btn-primary { background: var(--grad); color: #fff; box-shadow: 0 6px 24px rgba(14, 165, 233, .3); }
+    .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 10px 32px rgba(14, 165, 233, .45); }
+    .btn-ghost { border: 1px solid var(--card-border); color: var(--text); }
+    .btn-ghost:hover { border-color: var(--accent); color: var(--accent); }
+
+    /* ---------- sections ---------- */
+    section { padding: 56px 0; }
+    .sec-title { font-size: 1.7rem; font-weight: 800; margin-bottom: 8px; }
+    .sec-sub { color: var(--muted); margin-bottom: 32px; max-width: 640px; }
+
+    .grid { display: grid; gap: 20px; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--card-border);
+      border-radius: var(--radius);
+      padding: 26px;
+      transition: .25s;
+    }
+    .card:hover { border-color: var(--accent); transform: translateY(-3px); }
+    .card .icon {
+      width: 52px; height: 52px; border-radius: 14px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1.5rem;
+      background: var(--bg-soft);
+      border: 1px solid var(--card-border);
+      margin-bottom: 16px;
+    }
+    .card h3 { font-size: 1.12rem; font-weight: 700; margin-bottom: 8px; }
+    .card p { color: var(--muted); font-size: .95rem; }
+
+    /* ---------- tools ---------- */
+    .tool-card { display: flex; flex-direction: column; }
+    .tool-head { display: flex; align-items: center; gap: 14px; margin-bottom: 14px; }
+    .tool-head svg { width: 46px; height: 46px; border-radius: 12px; flex-shrink: 0; }
+    .tool-head h3 { font-size: 1.1rem; font-weight: 800; }
+    .tool-card p { flex: 1; }
+    .tool-links { display: flex; gap: 10px; margin-top: 20px; }
+    .tool-links a {
+      flex: 1; text-align: center; text-decoration: none;
+      padding: 9px 0; border-radius: 10px; font-weight: 700; font-size: .88rem;
+      transition: .2s;
+    }
+    .t-open { background: var(--grad); color: #fff; }
+    .t-open:hover { filter: brightness(1.12); }
+    .t-code { border: 1px solid var(--card-border); color: var(--muted); }
+    .t-code:hover { color: var(--accent); border-color: var(--accent); }
+
+    /* ---------- footer ---------- */
+    footer {
+      border-top: 1px solid var(--card-border);
+      margin-top: 40px; padding: 36px 0 48px;
+      text-align: center;
+    }
+    .socials { display: flex; gap: 14px; justify-content: center; margin-bottom: 18px; flex-wrap: wrap; }
+    .socials a {
+      display: inline-flex; align-items: center; gap: 8px;
+      color: var(--text); text-decoration: none; font-weight: 600; font-size: .92rem;
+      padding: 10px 18px; border: 1px solid var(--card-border); border-radius: 12px;
+      transition: .2s;
+    }
+    .socials a:hover { border-color: var(--accent); color: var(--accent); }
+    .socials svg { width: 18px; height: 18px; fill: currentColor; }
+    footer .copy { color: var(--muted); font-size: .85rem; }
+
+    @media (max-width: 560px) {
+      .hero { padding: 48px 0 40px; }
+      section { padding: 40px 0; }
+    }
+  </style>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+
+  <div class="glow glow-1"></div>
+  <div class="glow glow-2"></div>
+
+  <div class="wrap">
+
+    <header class="topbar">
+      <div class="brand">
+        <svg class="logo" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <defs>
+            <linearGradient id="lg1" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#14b8a6"/>
+              <stop offset="1" stop-color="#0284c7"/>
+            </linearGradient>
+          </defs>
+          <rect width="64" height="64" rx="16" fill="url(#lg1)"/>
+          <text x="32" y="43" font-family="Inter, Arial" font-weight="900" font-size="26" text-anchor="middle" fill="#fff">FD</text>
+        </svg>
+        <strong>Frankk&nbsp;Darko</strong>
+      </div>
+      <div class="lang-switch" role="group" aria-label="Language">
+        <button id="lang-fr" class="lang-btn">FR</button>
+        <button id="lang-en" class="lang-btn">EN</button>
+      </div>
+    </header>
+
+    <section class="hero">
+      <svg class="biglogo" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <defs>
+          <linearGradient id="lg2" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0" stop-color="#14b8a6"/>
+            <stop offset="1" stop-color="#0284c7"/>
+          </linearGradient>
+        </defs>
+        <rect width="64" height="64" rx="16" fill="url(#lg2)"/>
+        <text x="32" y="43" font-family="Inter, Arial" font-weight="900" font-size="26" text-anchor="middle" fill="#fff">FD</text>
+      </svg>
+      <h1 data-i18n-html="hero.title"></h1>
+      <p class="sub" data-i18n="hero.sub"></p>
+      <div class="cta">
+        <a href="#tools" class="btn btn-primary" data-i18n="hero.cta1"></a>
+        <a href="https://github.com/FrankkDarko" target="_blank" rel="noopener" class="btn btn-ghost" data-i18n="hero.cta2"></a>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2 class="sec-title" data-i18n="about.title"></h2>
+      <p class="sec-sub" data-i18n="about.sub"></p>
+      <div class="grid">
+        <div class="card">
+          <div class="icon">🌐</div>
+          <h3 data-i18n="about.vr.title"></h3>
+          <p data-i18n="about.vr.text"></p>
+        </div>
+        <div class="card">
+          <div class="icon">🛠️</div>
+          <h3 data-i18n="about.dev.title"></h3>
+          <p data-i18n="about.dev.text"></p>
+        </div>
+        <div class="card">
+          <div class="icon">🎮</div>
+          <h3 data-i18n="about.games.title"></h3>
+          <p data-i18n="about.games.text"></p>
+        </div>
+      </div>
+    </section>
+
+    <section id="tools">
+      <h2 class="sec-title" data-i18n="tools.title"></h2>
+      <p class="sec-sub" data-i18n="tools.sub"></p>
+      <div class="grid">
+
+        <div class="card tool-card">
+          <div class="tool-head">
+            <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <rect width="64" height="64" rx="16" fill="url(#lg1)"/>
+              <path d="M20 26a13 13 0 0 1 22-5.5" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round"/>
+              <path d="M42 14v7h-7" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M44 38a13 13 0 0 1-22 5.5" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round"/>
+              <path d="M22 50v-7h7" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+              <text x="32" y="37.5" text-anchor="middle" font-family="Inter, Arial" font-weight="800" font-size="15" fill="#fff">€$</text>
+            </svg>
+            <h3>Convert Currency</h3>
+          </div>
+          <p data-i18n="tools.cc"></p>
+          <div class="tool-links">
+            <a class="t-open" href="https://frankkdarko.github.io/ConvertCurrency/" target="_blank" rel="noopener" data-i18n="tools.open"></a>
+            <a class="t-code" href="https://github.com/FrankkDarko/ConvertCurrency" target="_blank" rel="noopener" data-i18n="tools.code"></a>
+          </div>
+        </div>
+
+        <div class="card tool-card">
+          <div class="tool-head">
+            <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <rect width="64" height="64" rx="16" fill="url(#lg1)"/>
+              <text x="32" y="44" text-anchor="middle" font-family="Inter, Arial" font-weight="800" font-size="30" fill="#fff">€✓</text>
+            </svg>
+            <h3>Good Price</h3>
+          </div>
+          <p data-i18n="tools.gp"></p>
+          <div class="tool-links">
+            <a class="t-open" href="https://frankkdarko.github.io/GoodPrice/" target="_blank" rel="noopener" data-i18n="tools.open"></a>
+            <a class="t-code" href="https://github.com/FrankkDarko/GoodPrice" target="_blank" rel="noopener" data-i18n="tools.code"></a>
+          </div>
+        </div>
+
+        <div class="card tool-card">
+          <div class="tool-head">
+            <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <rect width="64" height="64" rx="16" fill="url(#lg1)"/>
+              <text x="32" y="44" text-anchor="middle" font-family="Inter, Arial" font-weight="800" font-size="30" fill="#fff">§</text>
+            </svg>
+            <h3>LicenseForge</h3>
+          </div>
+          <p data-i18n="tools.lf"></p>
+          <div class="tool-links">
+            <a class="t-open" href="https://frankkdarko.github.io/FreeLicenseGenerator/" target="_blank" rel="noopener" data-i18n="tools.open"></a>
+            <a class="t-code" href="https://github.com/FrankkDarko/FreeLicenseGenerator" target="_blank" rel="noopener" data-i18n="tools.code"></a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <footer>
+      <div class="socials">
+        <a href="https://github.com/FrankkDarko" target="_blank" rel="noopener">
+          <svg viewBox="0 0 16 16"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+          GitHub
+        </a>
+        <a href="https://discord.gg/t33r3Wfj3n" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24"><path d="M20.32 4.37a19.8 19.8 0 0 0-4.89-1.52.07.07 0 0 0-.08.04c-.21.38-.44.87-.61 1.25a18.3 18.3 0 0 0-5.48 0 12.6 12.6 0 0 0-.62-1.25.08.08 0 0 0-.08-.04 19.7 19.7 0 0 0-4.88 1.52.07.07 0 0 0-.03.03C.53 9.05-.32 13.58.1 18.06a.08.08 0 0 0 .03.05 19.9 19.9 0 0 0 5.99 3.03.08.08 0 0 0 .09-.03c.46-.63.87-1.3 1.23-2a.08.08 0 0 0-.04-.11 13.1 13.1 0 0 1-1.87-.9.08.08 0 0 1-.01-.13c.13-.09.25-.19.37-.29a.07.07 0 0 1 .08-.01c3.93 1.8 8.18 1.8 12.06 0a.07.07 0 0 1 .08.01c.12.1.24.2.37.29a.08.08 0 0 1-.01.13c-.6.35-1.22.64-1.87.9a.08.08 0 0 0-.04.11c.36.7.78 1.37 1.23 2a.08.08 0 0 0 .09.03 19.8 19.8 0 0 0 6-3.03.08.08 0 0 0 .03-.05c.5-5.18-.84-9.68-3.55-13.66a.06.06 0 0 0-.03-.03zM8.02 15.33c-1.18 0-2.16-1.08-2.16-2.42 0-1.33.96-2.42 2.16-2.42 1.21 0 2.18 1.1 2.16 2.42 0 1.34-.96 2.42-2.16 2.42zm7.97 0c-1.18 0-2.16-1.08-2.16-2.42 0-1.33.96-2.42 2.16-2.42 1.21 0 2.18 1.1 2.16 2.42 0 1.34-.95 2.42-2.16 2.42z"/></svg>
+          Discord
+        </a>
+      </div>
+      <p class="copy" data-i18n="footer.copy"></p>
+    </footer>
+
+  </div>
+
+  <script>
+    const I18N = {
+      fr: {
+        'hero.title': 'Salut, moi c\'est <span>Frankk Darko</span>',
+        'hero.sub': 'Passionné de mondes virtuels et de jeux vidéo, je bricole des petits outils web gratuits, simples et sans prise de tête — tout tourne dans ton navigateur, rien n\'est envoyé nulle part.',
+        'hero.cta1': 'Voir mes outils',
+        'hero.cta2': 'Mon GitHub',
+        'about.title': 'Mes passions',
+        'about.sub': 'Ce qui m\'anime au quotidien, entre pixels et lignes de code.',
+        'about.vr.title': 'VRChat & mondes virtuels',
+        'about.vr.text': 'Je passe beaucoup de temps dans les mondes virtuels, notamment sur VRChat où je participe à la vie de communautés francophones : événements, organisation, et plein de belles rencontres.',
+        'about.dev.title': 'Dev web & petits outils',
+        'about.dev.text': 'J\'aime créer des outils web qui rendent service : gratuits, bilingues, 100 % côté navigateur. Pas de compte, pas de tracking, juste de l\'utile.',
+        'about.games.title': 'Jeux vidéo',
+        'about.games.text': 'Joueur de longue date, curieux de tout : des grosses productions aux petits jeux indés, en solo comme entre amis.',
+        'tools.title': 'Mes outils',
+        'tools.sub': 'Trois petits outils gratuits, bilingues FR/EN, sans backend ni tracking.',
+        'tools.cc': 'Convertisseur de devises au taux du jour ou historique — montant simple ou fichier CSV/Excel complet.',
+        'tools.gp': 'Estime le juste prix de tes commissions en ligne : créations VRChat, graphisme, dev web… comparé au marché.',
+        'tools.lf': 'Génère une licence prête à copier (permissive, stricte ou commerciale) en anglais et en français.',
+        'tools.open': 'Ouvrir',
+        'tools.code': 'Code',
+        'footer.copy': '© 2026 Frankk Darko — fait avec passion, hébergé sur GitHub Pages.'
+      },
+      en: {
+        'hero.title': 'Hi, I\'m <span>Frankk Darko</span>',
+        'hero.sub': 'Passionate about virtual worlds and video games, I build small free web tools — simple, no-fuss, everything runs in your browser and nothing gets sent anywhere.',
+        'hero.cta1': 'See my tools',
+        'hero.cta2': 'My GitHub',
+        'about.title': 'My passions',
+        'about.sub': 'What keeps me going, somewhere between pixels and lines of code.',
+        'about.vr.title': 'VRChat & virtual worlds',
+        'about.vr.text': 'I spend a lot of time in virtual worlds, especially VRChat, where I\'m active in French-speaking communities: events, organizing, and lots of great encounters.',
+        'about.dev.title': 'Web dev & small tools',
+        'about.dev.text': 'I love building web tools that are actually useful: free, bilingual, 100% browser-side. No account, no tracking, just handy stuff.',
+        'about.games.title': 'Video games',
+        'about.games.text': 'Long-time gamer, curious about everything: from big productions to small indie gems, solo or with friends.',
+        'tools.title': 'My tools',
+        'tools.sub': 'Three small free tools, bilingual FR/EN, no backend, no tracking.',
+        'tools.cc': 'Currency converter with live or historical rates — a single amount or a full CSV/Excel file.',
+        'tools.gp': 'Estimates the fair price of your online commissions: VRChat creations, design, web dev… compared to the market.',
+        'tools.lf': 'Generates a ready-to-copy license (permissive, strict or commercial) in both English and French.',
+        'tools.open': 'Open',
+        'tools.code': 'Code',
+        'footer.copy': '© 2026 Frankk Darko — made with passion, hosted on GitHub Pages.'
+      }
+    };
+
+    function setLang(lang) {
+      const dict = I18N[lang] || I18N.en;
+      document.documentElement.lang = lang;
+      document.querySelectorAll('[data-i18n]').forEach(el => {
+        const key = el.getAttribute('data-i18n');
+        if (dict[key]) el.textContent = dict[key];
+      });
+      document.querySelectorAll('[data-i18n-html]').forEach(el => {
+        const key = el.getAttribute('data-i18n-html');
+        if (dict[key]) el.innerHTML = dict[key];
+      });
+      document.getElementById('lang-fr').classList.toggle('active', lang === 'fr');
+      document.getElementById('lang-en').classList.toggle('active', lang === 'en');
+      try { localStorage.setItem('fd-lang', lang); } catch (e) {}
+    }
+
+    document.getElementById('lang-fr').addEventListener('click', () => setLang('fr'));
+    document.getElementById('lang-en').addEventListener('click', () => setLang('en'));
+
+    let lang;
+    try { lang = localStorage.getItem('fd-lang'); } catch (e) {}
+    if (!lang) lang = (navigator.language || 'en').toLowerCase().startsWith('fr') ? 'fr' : 'en';
+    setLang(lang);
+  </script>
+
 </body>
 </html>
